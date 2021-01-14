@@ -10,7 +10,7 @@
 
 #### composer安装
 ```shell script
-composer require lty5240/dcat-easy-sku 
+composer require 377123/dcat-easy-sku 
 ```
 
 #### 应用商店安装
