@@ -1,14 +1,14 @@
 {
-    "name": "lty5240/dcat-easy-sku",
+    "name": "377123/dcat-easy-sku",
     "description": "基于Dcat Admin的Sku插件",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
-    "homepage": "https://github.com/lty5240/dcat-easy-sku",
+    "homepage": "https://github.com/377123/dcat-easy-sku",
     "license": "MIT",
     "authors": [
         {
-            "name": "linty",
-            "email": "linty@lintyone.cn"
+            "name": "linjula",
+            "email": "linjula@163.com"
         }
     ],
     "require": {

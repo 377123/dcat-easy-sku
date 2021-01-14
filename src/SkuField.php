@@ -11,8 +11,8 @@ class SkuField extends Field
 
     public function render()
     {
-        Admin::js('vendor/dcat-admin-extensions/lty5240/dcat-easy-sku/js/dcat-easy-sku.js');
-        Admin::css('vendor/dcat-admin-extensions/lty5240/dcat-easy-sku/css/dcat-easy-sku.css');
+        Admin::js('vendor/dcat-admin-extensions/377123/dcat-easy-sku/js/dcat-easy-sku.js');
+        Admin::css('vendor/dcat-admin-extensions/377123/dcat-easy-sku/css/dcat-easy-sku.css');
 
         $this->script = <<< EOF
                 window.DemoSku = new JadeKunSKU('{$this->getElementClassSelector()}')
