@@ -1,6 +1,6 @@
 <div class="{{$viewClass['form-group']}}">
 
-    <label for="{{$id}}" class="{{$viewClass['label']}} control-label">{{$label}}</label>
+    <label for="{{$id ?? ''}}" class="{{$viewClass['label']}} control-label">{{$label}}</label>
 
     <div class="{{$viewClass['field']}}">
         {{--        <textarea id="{{$id}}" name="{{$name}}">{{ old($column, $value) }}</textarea>--}}
