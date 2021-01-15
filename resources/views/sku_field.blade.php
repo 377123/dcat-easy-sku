@@ -8,9 +8,9 @@
         <div class="sku_warp {{$class}}">
             <input type="hidden" class="Js_sku_input" name="{{$name}}" value="{{old($column, $value)}}">
             <div class="sku_attr_select">
-                <span class="btn btn-success Js_single_btn" data-type="single">单规格</span>
+                <span class="btn btn-success Js_single_btn" data-type="single"  style="display: none">单规格</span>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <span class="btn btn-default Js_many_btn" data-type="many">多规格</span>
+                <span class="btn btn-default Js_many_btn" data-type="many"  style="display: none">多规格</span>
             </div>
             <div class="sku_attr_key_val" style="display: none">
                 <table class="table table-bordered">
@@ -31,10 +31,10 @@
                                             <input type="text" class="form-control">
                                         </div>
                                         <span class="btn btn-danger Js_remove_attr_val"><i
-                                                class="glyphicon glyphicon-remove"></i></span>
+                                                class="feather icon-x"></i></span>
                                     </div>
                                     <div class="sku_attr_val_item Js_add_attr_val" style="padding-left: 10px">
-                                        <span class="btn btn-success"><i class="glyphicon glyphicon-plus"></i></span>
+                                        <span class="btn btn-success"><i class="feather icon-plus"></i></span>
                                     </div>
                                 </div>
                             </td>

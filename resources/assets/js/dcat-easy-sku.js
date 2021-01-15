@@ -152,6 +152,7 @@
                 _this.SKUForm(old_val.sku);
             }
         } else {
+            _this.warp.find('.sku_attr_select .Js_many_btn').trigger('click');
             _this.processSku()
         }
     };
